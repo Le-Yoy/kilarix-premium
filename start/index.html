@@ -2,9 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-    <title>KILARIX — Official Site | Premium 4K IPTV</title>
-    <meta name="description" content="Kilarix official site — premium 4K IPTV: 49,000+ live channels and 80,000+ movies and series. Plans from $25/month, setup on WhatsApp in minutes, money-back guarantee.">
+    <title>KILARIX Official Site — The Only Genuine KILARIX | 4K IPTV</title>
+    <meta name="description" content="The only official Kilarix website. Kilarix official site — premium 4K IPTV: 49,000+ live channels and 80,000+ movies and series. Plans from $25/month, setup on WhatsApp in minutes, money-back guarantee.">
     <meta property="og:title" content="Kilarix | Official — Premium 4K IPTV Service">
     <meta property="og:description" content="Premium 4K IPTV: 49,000+ live channels, 80,000+ movies and series. From $25/month. Setup on WhatsApp in minutes.">
     <meta property="og:type" content="website">
@@ -14,10 +18,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Kilarix | Official — Premium 4K IPTV Service">
     <meta name="twitter:description" content="Premium 4K IPTV: 49,000+ live channels, 80,000+ movies and series. From $25/month.">
-    <link rel="icon" type="image/png" href="/favicon.png">
-    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","name":"Kilarix","url":"https://kilarix-iptv.com/start/","logo":"https://kilarix-iptv.com/favicon.png","contactPoint":{"@type":"ContactPoint","contactType":"customer support","url":"https://wa.me/33773436514?text=%5BKilarix%5D"}},{"@type":"WebSite","name":"Kilarix","url":"https://kilarix-iptv.com/start/"}]}</script>
-    <link rel="shortcut icon" href="/favicon.png">
-    <link rel="apple-touch-icon" href="/favicon.png">
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","name":"Kilarix","alternateName":"Kilarix Official","description":"The only official Kilarix website.","url":"https://kilarix-iptv.com/start/","logo":"https://kilarix-iptv.com/favicon.png","contactPoint":{"@type":"ContactPoint","contactType":"customer support","url":"https://wa.me/33773436514?text=%5BKilarix%5D"}},{"@type":"WebSite","name":"Kilarix","url":"https://kilarix-iptv.com/start/"}]}</script>
     <script>function gtag(){}</script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -740,7 +741,8 @@
         .wc-addon-copy{font-size:12.5px;color:var(--gray-300);font-weight:500}
         .wc-addon-price{color:var(--wc-gold);font-weight:800;font-size:14px;white-space:nowrap}
         .cat-chip{padding:10px 18px;border-radius:999px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.04);color:rgba(255,255,255,.85);font-weight:600;font-size:.95rem}
-    </style>
+    .official-note{max-width:760px;margin:10px auto 0;padding:8px 14px;border-radius:10px;font-size:.88rem;line-height:1.4;text-align:center;color:var(--gray-300,#d4d4d8);background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.12)}
+</style>
 </head>
 <body>
     <!-- Site Navigation -->
@@ -770,7 +772,8 @@
 
         <div class="hero-content">
             <div class="notice"><span data-i18n="notice">Premium 4K IPTV from $25/month • Questions? WhatsApp:</span> <a href="https://wa.me/33773436514?text=%5BKilarix%5D">+33 7 73 43 65 14</a></div>
-            <h1 class="hero-title">KILARIX</h1>
+            <div class="official-note" data-i18n="officialNote">✔ Official Kilarix website — the only genuine Kilarix. Other sites using the Kilarix name are not affiliated with us.</div>
+            <h1 class="hero-title">KILARIX <span style="color:var(--primary-light)">Official</span></h1>
             <p class="hero-sub" data-i18n="heroSub">Access <strong>49,000+ live channels</strong> and <strong>80,000+ movies</strong> in stunning 4K. No contracts, no hidden fees. Just entertainment.</p>
 
             <div class="stats">
@@ -1353,11 +1356,11 @@
 
         // 2026-11-01 clean relaunch: neutral copy (no fixtures, no third-party names, no unverifiable counts)
         const cleanCopy = {
-            en: { notice: "Premium 4K IPTV from $25/month • Questions? WhatsApp:", uptime: "Movies & series", why3Desc: "Stable streams, built to hold up at peak hours", finalSub: "Set up in minutes on WhatsApp. Money-back guarantee.", catSports: "Live sports", catMovies: "Movies", catSeries: "Series", catNews: "News", catKids: "Kids", catDocs: "Documentaries", catIntl: "International channels" },
-            fr: { notice: "IPTV 4K premium dès 25 $/mois • Une question ? WhatsApp :", uptime: "Films & séries", why3Desc: "Flux stables, conçus pour tenir aux heures de pointe", finalSub: "Activation en quelques minutes sur WhatsApp. Satisfait ou remboursé.", catSports: "Sport en direct", catMovies: "Films", catSeries: "Séries", catNews: "Info", catKids: "Jeunesse", catDocs: "Documentaires", catIntl: "Chaînes internationales" },
-            de: { notice: "Premium 4K IPTV ab 25 $/Monat • Fragen? WhatsApp:", uptime: "Filme & Serien", why3Desc: "Stabile Streams, auch zu Stoßzeiten", finalSub: "In wenigen Minuten per WhatsApp eingerichtet. Geld-zurück-Garantie.", catSports: "Live-Sport", catMovies: "Filme", catSeries: "Serien", catNews: "Nachrichten", catKids: "Kinder", catDocs: "Dokumentationen", catIntl: "Internationale Sender" },
-            nl: { notice: "Premium 4K IPTV vanaf $25/maand • Vragen? WhatsApp:", uptime: "Films & series", why3Desc: "Stabiele streams, ook op drukke momenten", finalSub: "In enkele minuten ingesteld via WhatsApp. Geld-terug-garantie.", catSports: "Live sport", catMovies: "Films", catSeries: "Series", catNews: "Nieuws", catKids: "Kinderen", catDocs: "Documentaires", catIntl: "Internationale zenders" },
-            es: { notice: "IPTV 4K premium desde 25 $/mes • ¿Dudas? WhatsApp:", uptime: "Películas y series", why3Desc: "Señal estable, preparada para las horas punta", finalSub: "Activación en minutos por WhatsApp. Garantía de devolución.", catSports: "Deportes en directo", catMovies: "Películas", catSeries: "Series", catNews: "Noticias", catKids: "Infantil", catDocs: "Documentales", catIntl: "Canales internacionales" }
+            en: { officialNote: "✔ Official Kilarix website — the only genuine Kilarix. Other sites using the Kilarix name are not affiliated with us.", notice: "Premium 4K IPTV from $25/month • Questions? WhatsApp:", uptime: "Movies & series", why3Desc: "Stable streams, built to hold up at peak hours", finalSub: "Set up in minutes on WhatsApp. Money-back guarantee.", catSports: "Live sports", catMovies: "Movies", catSeries: "Series", catNews: "News", catKids: "Kids", catDocs: "Documentaries", catIntl: "International channels" },
+            fr: { officialNote: "✔ Site officiel Kilarix — le seul véritable Kilarix. Les autres sites utilisant le nom Kilarix n’ont aucun lien avec nous.", notice: "IPTV 4K premium dès 25 $/mois • Une question ? WhatsApp :", uptime: "Films & séries", why3Desc: "Flux stables, conçus pour tenir aux heures de pointe", finalSub: "Activation en quelques minutes sur WhatsApp. Satisfait ou remboursé.", catSports: "Sport en direct", catMovies: "Films", catSeries: "Séries", catNews: "Info", catKids: "Jeunesse", catDocs: "Documentaires", catIntl: "Chaînes internationales" },
+            de: { officialNote: "✔ Offizielle Kilarix-Website — das einzige echte Kilarix. Andere Seiten mit dem Namen Kilarix gehören nicht zu uns.", notice: "Premium 4K IPTV ab 25 $/Monat • Fragen? WhatsApp:", uptime: "Filme & Serien", why3Desc: "Stabile Streams, auch zu Stoßzeiten", finalSub: "In wenigen Minuten per WhatsApp eingerichtet. Geld-zurück-Garantie.", catSports: "Live-Sport", catMovies: "Filme", catSeries: "Serien", catNews: "Nachrichten", catKids: "Kinder", catDocs: "Dokumentationen", catIntl: "Internationale Sender" },
+            nl: { officialNote: "✔ Officiële Kilarix-website — de enige echte Kilarix. Andere sites met de naam Kilarix zijn niet van ons.", notice: "Premium 4K IPTV vanaf $25/maand • Vragen? WhatsApp:", uptime: "Films & series", why3Desc: "Stabiele streams, ook op drukke momenten", finalSub: "In enkele minuten ingesteld via WhatsApp. Geld-terug-garantie.", catSports: "Live sport", catMovies: "Films", catSeries: "Series", catNews: "Nieuws", catKids: "Kinderen", catDocs: "Documentaires", catIntl: "Internationale zenders" },
+            es: { officialNote: "✔ Web oficial de Kilarix — el único Kilarix auténtico. Otras webs que usan el nombre Kilarix no tienen relación con nosotros.", notice: "IPTV 4K premium desde 25 $/mes • ¿Dudas? WhatsApp:", uptime: "Películas y series", why3Desc: "Señal estable, preparada para las horas punta", finalSub: "Activación en minutos por WhatsApp. Garantía de devolución.", catSports: "Deportes en directo", catMovies: "Películas", catSeries: "Series", catNews: "Noticias", catKids: "Infantil", catDocs: "Documentales", catIntl: "Canales internacionales" }
         };
         Object.entries(cleanCopy).forEach(([l, o]) => translations[l] && Object.assign(translations[l], o));
 
